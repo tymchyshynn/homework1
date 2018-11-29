@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="3" engine-version="3.9.0.0" clr-version="4.0.30319.42000" start-time="2018-11-29 22:05:01Z" end-time="2018-11-29 22:05:28Z" duration="26.978665">
+  <command-line><![CDATA[nunit3-console  homework3.dll --params=browser=firefox]]></command-line>
+  <test-suite type="Assembly" id="0-1005" name="homework3.dll" fullname="homework3.dll" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-11-29 22:05:04Z" end-time="2018-11-29 22:05:27Z" duration="23.900167" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+    <environment framework-version="3.11.0.0" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.1.7601.65536" platform="Win32NT" cwd="C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\homework3\homework3\bin\Debug" machine-name="LENOVO-ПК" user="Lenovo" user-domain="Lenovo-ПК" culture="uk-UA" uiculture="uk-UA" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="C:\Users\Lenovo\Documents\Visual Studio 2015\Projects\homework3\homework3\bin\Debug" />
+      <setting name="TestParametersDictionary" value="[browser, firefox]">
+        <item key="browser" value="firefox" />
+      </setting>
+      <setting name="TestParameters" value="browser=firefox" />
+      <setting name="ImageRuntimeVersion" value="4.0.30319" />
+      <setting name="ImageTargetFrameworkName" value=".NETFramework,Version=v4.5.2" />
+      <setting name="ImageRequiresX86" value="False" />
+      <setting name="ImageRequiresDefaultAppDomainAssemblyResolver" value="False" />
+      <setting name="NumberOfTestWorkers" value="2" />
+    </settings>
+    <properties>
+      <property name="_PID" value="7824" />
+      <property name="_APPDOMAIN" value="domain-" />
+    </properties>
+    <test-suite type="SetUpFixture" id="0-1000" name="homework3" fullname="homework3.SetUpFixture" classname="homework3.SetUpFixture" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-11-29 22:05:04Z" end-time="2018-11-29 22:05:27Z" duration="23.820580" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+      <output><![CDATA[call OneTimeSetUp Method
+call OneTimeTearDown Method
+]]></output>
+      <test-suite type="TestFixture" id="0-1001" name="TestFixture" fullname="homework3.TestFixture" classname="homework3.TestFixture" runstate="Runnable" testcasecount="3" result="Passed" start-time="2018-11-29 22:05:04Z" end-time="2018-11-29 22:05:27Z" duration="23.794865" total="3" passed="3" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="3">
+        <output><![CDATA[call OneTimeSetUp Method from BaseTest
+call OneTimeTearDown Method from BaseTest
+]]></output>
+        <test-case id="0-1002" name="Test1" fullname="homework3.TestFixture.Test1" methodname="Test1" classname="homework3.TestFixture" runstate="Runnable" seed="734908454" result="Passed" start-time="2018-11-29 22:05:21Z" end-time="2018-11-29 22:05:24Z" duration="2.922247" asserts="1">
+          <output><![CDATA[call SetUp Method
+call TearDown Method
+]]></output>
+        </test-case>
+        <test-case id="0-1003" name="Test2" fullname="homework3.TestFixture.Test2" methodname="Test2" classname="homework3.TestFixture" runstate="Runnable" seed="1107052756" result="Passed" start-time="2018-11-29 22:05:24Z" end-time="2018-11-29 22:05:25Z" duration="0.588939" asserts="1">
+          <output><![CDATA[call SetUp Method
+call TearDown Method
+]]></output>
+        </test-case>
+        <test-case id="0-1004" name="Test3" fullname="homework3.TestFixture.Test3" methodname="Test3" classname="homework3.TestFixture" runstate="Runnable" seed="573507625" result="Passed" start-time="2018-11-29 22:05:25Z" end-time="2018-11-29 22:05:25Z" duration="0.535407" asserts="1">
+          <output><![CDATA[call SetUp Method
+call TearDown Method
+]]></output>
+        </test-case>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
